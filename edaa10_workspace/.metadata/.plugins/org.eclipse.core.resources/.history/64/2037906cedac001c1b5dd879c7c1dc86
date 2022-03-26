@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class TestSortAlgorithms {
+
+	public static void main(String[] args) {
+		
+		
+		//Selection sort with ArrayList<Int>
+		
+		SelectionSort ss = new SelectionSort();
+		
+		ArrayList<Integer> unsortedArray = SelectionSort.generateRandomInt(20, 1, 50);
+		
+		ArrayList<Integer> sortedArray = ss.selectionSortInt(unsortedArray, true);
+		
+		ss.getSortedArray();
+		
+		System.out.println("heheh");
+		
+	}
+
+}

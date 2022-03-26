@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FileSystemImportWizard">
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogWidth" value="-1"/>
+		<item key="dialogHeight" value="-1"/>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="textEntries">
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_Y_ORIGIN" value="28"/>
+		<item key="DIALOG_X_ORIGIN" value="203"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ImportExportAction">
+	</section>
+</section>

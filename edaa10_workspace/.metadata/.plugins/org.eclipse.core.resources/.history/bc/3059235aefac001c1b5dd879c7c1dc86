@@ -1,0 +1,46 @@
+import java.util.ArrayList;
+import java.util.Random;
+
+public class InsertionSort {
+
+	public static void main(String[] args) {
+		
+		
+		Random r = new Random();
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		
+		//Genererar 10 st random siffror mellan 1-50 och lägger in i en ArrayList
+		for (int i=0; i<10; i++) {
+			numbers.add(1+r.nextInt(50));
+		}
+		
+		//INSÄTTNINGSSORTERING MED ArrayList (STIGANDE ORDNING)
+		ArrayList<Integer> sorted2 = new ArrayList<Integer>(numbers);
+		
+		for (int i=0; i<sorted2.size()-1; i++) {
+			for (int k=i; k<sorted2.size(); k++) {
+				int nbr = sorted2.get(i);
+				int comparingNbr = sorted2.get(k);
+				
+				if (comparingNbr<nbr) { //BYT TECKEN OM DU VILL HA FALLANDE ORDNING 
+					sorted2.remove(i);
+					sorted2.add(i,comparingNbr);
+					sorted2.remove(k);
+					sorted2.add(k,nbr);
+				}
+			}
+		}
+		
+		
+		//SKRIVER UT DEN SORTERADE LISTAN, ETT HELTAL I TAGET
+		for (int i=0; i<sorted2.size(); i++) {
+			System.out.println(sorted2.get(i));
+		}
+		
+		System.out.println("STOP");
+
+	}
+	
+	
+
+}

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;Turtle.java&apos; to &apos;ovn8/src/ovn8&apos;&#x0A;- Original project: &apos;ovn7&apos;&#x0A;- Destination element: &apos;ovn8/src/ovn8&apos;&#x0A;- Original element: &apos;Turtle.java&apos;" description="Copy compilation unit" destination="=ovn8/src&lt;ovn8" element1="/src&lt;{Turtle.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1635931548400" units="1" version="1.0"/>
-</session>

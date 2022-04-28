@@ -1,4 +1,4 @@
-# EDAA10
+# Om EDAA10
 Övningar och laborationer från  EDAA10 (Programmering i Java), LTH (Helsingborg), HT21.
 
 Finns även två separata klasser inkluderade för insättningssortering och urvalssortering. 
